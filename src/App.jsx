@@ -119,7 +119,7 @@ function App() {
               Your browser does not support the video tag.
             </video>
             {currentCaption && (
-              <div className=" bottom-1/4 absolute left-1/2 transform -translate-x-1/2 text-lg text-white py-2 px-4 rounded-lg shadow-lg">
+              <div className=" bottom-1/4 absolute left-1/2 transform -translate-x-1/2 text-lg bg-black text-white  px-4  shadow-lg">
                 {currentCaption}
               </div>
             )}
